@@ -1,0 +1,92 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html{
+
+    min-width: 720px;
+    min-height: 405px;
+}
+
+/*************************************************************************/
+
+#header{
+
+    background-color: rgb(235, 235, 235);
+    height: 40px;
+    padding-top: 10px;
+
+}
+
+#tittle{
+
+    float: left;
+    margin-left: 10px;
+    font-size: 28px;
+
+}
+
+#choices{
+
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+}
+
+.togglebutton{
+
+    padding: 5px;
+    display: table-cell;
+    text-align: center;
+    font-size: larger;
+
+}
+
+#toggle-html{
+
+    border-right: 1px solid grey;
+
+}
+
+#toggle-css{
+
+    border-right: 1px solid grey;
+
+}
+
+#toggle-js{
+
+    border-right: 1px solid grey;
+
+}
+
+.togglebutton:hover{
+
+    background-color: grey;
+
+}
+
+/*************************************************************************/
+
+.panel{
+
+    resize: none;
+    display: none;
+    height: 550px;
+    float: left;
+    border-color: grey;
+    border-left: none;
+
+}
+
+#output-panel{
+
+    border: none;
+    
+}

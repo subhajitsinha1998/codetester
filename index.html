@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Code-Player</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+
+<body>
+
+
+
+    <div id="header">
+
+        <h1 id="tittle">CodePlayer</h1>
+
+        <ul id="choices">
+
+            <li class="togglebutton" id="toggle-html">HTML</li>
+            <li class="togglebutton" id="toggle-css">CSS</li>
+            <li class="togglebutton" id="toggle-js">javascript</li>
+            <li class="togglebutton" id="toggle-output">output</li>
+
+        </ul>
+
+    </div>
+
+
+
+    <div id="panel-container">
+
+        <textarea class="panel" id="html-panel"><p>Hello World!!!</p></textarea>
+
+
+
+        <textarea class="panel" id="css-panel">p{color:green}</textarea>
+
+
+
+        <textarea class="panel" id="js-panel"></textarea>
+
+
+ 
+        <iframe class="panel" id="output-panel">
+
+            <html>
+            <style type="text/css">
+                p {
+                    color: green;
+                }
+            </style>
+            <p>hello World!!!</p>
+
+            </html>
+
+        </iframe>
+
+    </div>
+
+
+
+    <script type="text/javascript" src="main.js"></script>
+
+
+
+</body>
+
+</html>
